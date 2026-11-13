@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>김초롱 ♥ 김효진 결혼합니다</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- BGM Audio Player (Auto play or tap) -->
+  <div class="audio-control" id="audioToggle">
+    <span class="music-icon">🎵</span>
+    <span class="music-text">BGM</span>
+  </div>
+
+  <main class="invitation-container">
+    <!-- Header / Intro -->
+    <header class="section intro-section">
+      <div class="date-badge">2026. 06. 15 MON</div>
+      <h1 class="main-title">
+        <span class="sub-lead">평생의 단짝이 되는 날</span>
+        <span class="names">김초롱 <span class="heart">♥</span> 김효진</span>
+      </h1>
+      <p class="intro-sub">신랑 멍멍이 초롱이와 신부 효진이의 아주 특별한 동행</p>
+
+      <div class="main-photo-frame">
+        <img src="images/groom_bride_main.png" alt="김초롱과 김효진의 웨딩 사진" class="main-photo" onerror="this.src='https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=800&q=80'">
+        <div class="photo-overlay-tag">우리 결혼해요 🐾💍</div>
+      </div>
+
+      <div class="wedding-datetime">
+        <p class="date-large">2026년 6월 15일 월요일</p>
+        <p class="time-large">오후 12시 30분</p>
+        <p class="place-simple">강원특별자치도 강릉시 원대로179번안길 1, 3층</p>
+      </div>
+    </header>
+
+    <!-- Floating Quick Action Buttons -->
+    <section class="quick-actions">
+      <a href="#location" class="q-btn">📍 오시는 길</a>
+      <a href="#calendar-sec" class="q-btn">📅 일정 확인</a>
+      <a href="#guestbook" class="q-btn">💌 축하 메시지</a>
+    </section>
+
+    <!-- Invitation Letter -->
+    <section class="section letter-section">
+      <div class="section-badge">INVITATION</div>
+      <h2 class="section-title">소중한 분들을 초대합니다</h2>
+      <div class="paw-divider">🐾 🐾 🐾</div>
+      
+      <div class="letter-body">
+        <p class="greeting-poem">
+          비가 오나 눈이 오나 산책길을 함께 걷듯,<br>
+          꼬리를 살랑이며 세상에서 제일 반갑게 맞이해주던 온기.<br>
+          <br>
+          언제나 말없이 곁을 지켜주는 듬직하고 사랑스러운 초롱이와,<br>
+          그런 초롱이를 온 마음 다해 사랑하는 효진이가<br>
+          서로에게 영원한 가족이자 평생의 짝꿍이 되기로 약속합니다.<br>
+          <br>
+          세상에서 가장 순수하고 따뜻한 사랑의 서약을 맺는 자리,<br>
+          발걸음 하시어 축복해 주시면 더없는 기쁨이 되겠습니다.
+        </p>
+
+        <div class="family-relation">
+          <div class="relation-row">
+            <span class="tag groom-tag">신랑</span>
+            <span class="name">김초롱</span>
+            <span class="desc">(견생 최고의 날을 맞이한 댕댕이 신랑 🐶)</span>
+          </div>
+          <div class="relation-row">
+            <span class="tag bride-tag">신부</span>
+            <span class="name">김효진</span>
+            <span class="desc">(초롱이의 영원한 단짝 & 든든한 반려인 👰)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Couple Profile Cards -->
+    <section class="section profile-section">
+      <div class="section-badge">GROOM & BRIDE</div>
+      <h2 class="section-title">신랑 & 신부 소개</h2>
+
+      <div class="profile-cards">
+        <!-- Groom Card -->
+        <div class="profile-card groom-card">
+          <div class="profile-img-wrap">
+            <img src="images/groom_chorong.png" alt="신랑 김초롱" onerror="this.src='https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80'">
+            <span class="card-badge">GROOM 🐾</span>
+          </div>
+          <div class="profile-info">
+            <h3 class="char-name">김초롱</h3>
+            <p class="char-role">신랑 · 귀여움 담당 & 간식 러버</p>
+            <ul class="char-details">
+              <li><strong>특기:</strong> 간식 앞에서 초롱초롱 눈망울 발사, 꼬리펠러 가동</li>
+              <li><strong>다짐:</strong> "평생 효진이 곁을 지키며 매일매일 행복한 멍멍이 미소를 선물하겠습니다! 멍!"</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bride Card -->
+        <div class="profile-card bride-card">
+          <div class="profile-img-wrap">
+            <img src="images/bride_hyojin.png" alt="신부 김효진" onerror="this.src='https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=600&q=80'">
+            <span class="card-badge">BRIDE 💐</span>
+          </div>
+          <div class="profile-info">
+            <h3 class="char-name">김효진</h3>
+            <p class="char-role">신부 · 힐링 메이커 & 든든한 수호자</p>
+            <ul class="char-details">
+              <li><strong>특기:</strong> 초롱이 턱 긁어주기, 특급 수제간식 만들기</li>
+              <li><strong>다짐:</strong> "눈을 맞추고 발을 맞추며, 초롱이의 모든 계절을 따뜻하고 벅찬 사랑으로 가득 채우겠습니다."</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="section gallery-section">
+      <div class="section-badge">GALLERY</div>
+      <h2 class="section-title">우리의 따스한 순간들</h2>
+      <p class="section-desc">사진을 클릭하시면 크게 보실 수 있습니다.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openModal('images/groom_bride_main.png')">
+          <img src="images/groom_bride_main.png" alt="웨딩 메인" onerror="this.src='https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=800&q=80'">
+        </div>
+        <div class="gallery-item" onclick="openModal('images/groom_chorong.png')">
+          <img src="images/groom_chorong.png" alt="턱시도 입은 신랑 초롱" onerror="this.src='https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80'">
+        </div>
+        <div class="gallery-item" onclick="openModal('images/bride_hyojin.png')">
+          <img src="images/bride_hyojin.png" alt="웨딩드레스 입은 신부 효진" onerror="this.src='https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=600&q=80'">
+        </div>
+        <div class="gallery-item" onclick="openModal('images/couple_story.png')">
+          <img src="images/couple_story.png" alt="함께하는 행복한 순간" onerror="this.src='https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&w=800&q=80'">
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar & D-Day Section -->
+    <section class="section calendar-section" id="calendar-sec">
+      <div class="section-badge">DATE & D-DAY</div>
+      <h2 class="section-title">2026년 6월 15일</h2>
+      <p class="time-sub">월요일 오후 12시 30분</p>
+
+      <div class="calendar-box">
+        <div class="cal-month-header">JUNE 2026</div>
+        <table class="cal-table">
+          <thead>
+            <tr>
+              <th class="sun">일</th>
+              <th>월</th>
+              <th>화</th>
+              <th>수</th>
+              <th>목</th>
+              <th>금</th>
+              <th>토</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="other-month">31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td class="sun">7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td class="sun">14</td>
+              <td class="wedding-day">
+                <span class="day-num">15</span>
+                <span class="day-marker">💍 D-Day</span>
+              </td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td class="sun">21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td class="sun">28</td>
+              <td>29</td>
+              <td>30</td>
+              <td class="other-month">1</td>
+              <td class="other-month">2</td>
+              <td class="other-month">3</td>
+              <td class="other-month">4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="dday-counter">
+        <div class="counter-box">
+          <span class="counter-title">초롱이와 효진이의 결혼식까지</span>
+          <div class="timer-display" id="ddayTimer">
+            <div class="time-unit"><span id="days">--</span><label>일</label></div>
+            <div class="time-unit"><span id="hours">--</span><label>시</label></div>
+            <div class="time-unit"><span id="minutes">--</span><label>분</label></div>
+            <div class="time-unit"><span id="seconds">--</span><label>초</label></div>
+          </div>
+          <p class="dday-cheer">행복한 발걸음으로 함께해 주세요 🐾✨</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Directions -->
+    <section class="section location-section" id="location">
+      <div class="section-badge">LOCATION</div>
+      <h2 class="section-title">오시는 길</h2>
+
+      <div class="venue-info-box">
+        <h3 class="venue-name">초롱이 & 효진이의 오션 웨딩 라운지</h3>
+        <p class="venue-address" id="addressText">강원특별자치도 강릉시 원대로179번안길 1, 3층</p>
+        <button class="copy-btn" onclick="copyAddress()">주소 복사하기 📋</button>
+      </div>
+
+      <!-- Interactive Map Frame / Visual Placeholder -->
+      <div class="map-card">
+        <div class="map-visual">
+          <div class="map-pin">
+            <span class="pin-icon">💒</span>
+            <span class="pin-tooltip">강릉시 원대로179번안길 1, 3층</span>
+          </div>
+        </div>
+        <div class="map-buttons">
+          <a href="https://map.naver.com/v5/search/%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%9B%90%EB%8C%80%EB%A1%9C179%EB%82%98%EC%95%88%EA%B8%B8%201" target="_blank" class="nav-btn naver-btn">
+            <span class="nav-icon">N</span> 네이버 지도
+          </a>
+          <a href="https://map.kakao.com/link/search/강릉시 원대로179번안길 1" target="_blank" class="nav-btn kakao-btn">
+            <span class="nav-icon">K</span> 카카오 맵
+          </a>
+          <a href="https://maps.google.com/?q=강릉시+원대로179번안길+1" target="_blank" class="nav-btn tmap-btn">
+            <span class="nav-icon">G</span> 구글 지도
+          </a>
+        </div>
+      </div>
+
+      <!-- Traffic Directions -->
+      <div class="traffic-details">
+        <div class="traffic-item">
+          <div class="traffic-title">🚄 KTX / 기차 이용 시</div>
+          <div class="traffic-content">
+            <p><strong>KTX 강릉역</strong> 하차 후 택시 이용 약 7~10분 (원대로179번안길 1 방면)</p>
+            <p class="sub-text">대중교통: 강릉역 건너편 정류장에서 교동 방면 시내버스 탑승</p>
+          </div>
+        </div>
+
+        <div class="traffic-item">
+          <div class="traffic-title">🚌 버스 이용 시</div>
+          <div class="traffic-content">
+            <p><strong>강릉고속버스터미널 / 시외버스터미널</strong>에서 택시 약 5분 또는 시내버스 이용</p>
+            <p class="sub-text">교동 원대로 인근 정류장 하차 후 도보 2~3분</p>
+          </div>
+        </div>
+
+        <div class="traffic-item">
+          <div class="traffic-title">🚗 자가용 이용 시 & 주차 안내</div>
+          <div class="traffic-content">
+            <p><strong>네비게이션:</strong> "강원도 강릉시 원대로179번안길 1" 검색</p>
+            <p>건물 전용 주차장 및 인근 공영주차장 무료 주차 지원</p>
+            <p class="pet-tip">🐾 <strong>안내:</strong> 반려동물 동반 하객을 위한 멍멍이 휴게존 & 개껌 간식바가 3층 입구에 준비되어 있습니다!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guest Congratulation Book -->
+    <section class="section guestbook-section" id="guestbook">
+      <div class="section-badge">GUESTBOOK</div>
+      <h2 class="section-title">축하 메시지 남기기</h2>
+      <p class="section-desc">초롱이와 효진이에게 따뜻한 덕담을 남겨주세요.</p>
+
+      <form class="guest-form" id="guestForm" onsubmit="addMessage(event)">
+        <div class="form-row">
+          <input type="text" id="guestName" placeholder="보내시는 분 성함" required>
+        </div>
+        <div class="form-row">
+          <textarea id="guestContent" rows="3" placeholder="축하의 말을 남겨주세요 (초롱이에게 간식 응원도 환영해요!)" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">축하 글 남기기 💌</button>
+      </form>
+
+      <div class="guestbook-list" id="guestList">
+        <div class="guest-card">
+          <div class="guest-header">
+            <span class="guest-author">동네친구 뽀삐네 🐕</span>
+            <span class="guest-time">방금 전</span>
+          </div>
+          <p class="guest-msg">초롱아 장가가는 거 축하해!! 턱시도 입은 모습 너무 멋지다 효진 누나랑 평생 행복해야 해 멍멍! 🎉🦴</p>
+        </div>
+
+        <div class="guest-card">
+          <div class="guest-header">
+            <span class="guest-author">효진이 절친 민지</span>
+            <span class="guest-time">10분 전</span>
+          </div>
+          <p class="guest-msg">세상에서 제일 사랑스럽고 특별한 결혼식이다 효진아!! 초롱이랑 지금처럼 서로 아끼면서 늘 행복하길 축복해 💕💐</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Account & Gift Info (Heartfelt Congratulations) -->
+    <section class="section account-section">
+      <div class="section-badge">HEART & LOVE</div>
+      <h2 class="section-title">마음 전하실 곳</h2>
+      <p class="section-desc">참석이 어려우신 분들을 위해 따뜻한 축복의 마음을 전달할 수 있는 곳을 안내드립니다.</p>
+
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion('brideAcc')">
+          <span>신부측 마음 전하기</span>
+          <span class="arrow-icon">▼</span>
+        </button>
+        <div class="accordion-content" id="brideAcc">
+          <div class="acc-row">
+            <div>
+              <strong>카카오뱅크</strong> 3333-01-2345678 (김효진)
+            </div>
+            <button class="small-copy-btn" onclick="copyText('3333-01-2345678')">복사</button>
+          </div>
+          <p class="acc-sub">축하해 주시는 따뜻한 마음 고이 간직하겠습니다.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion('groomAcc')">
+          <span>신랑 초롱이 간식 펀딩 🦴</span>
+          <span class="arrow-icon">▼</span>
+        </button>
+        <div class="accordion-content" id="groomAcc">
+          <div class="acc-row">
+            <div>
+              <strong>토스뱅크</strong> 1000-0987-6543 (김초롱 전용 간식통)
+            </div>
+            <button class="small-copy-btn" onclick="copyText('1000-0987-6543')">복사</button>
+          </div>
+          <p class="acc-sub">초롱이의 신혼 황금 개껌 및 특급 영양식 펀드로 소중히 사용됩니다!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Share & Footer -->
+    <footer class="section footer-section">
+      <div class="share-buttons">
+        <button class="share-btn kakao-share" onclick="shareKakao()">
+          <span class="icon">💬</span> 청첩장 카카오톡 공유
+        </button>
+        <button class="share-btn link-share" onclick="copyCurrentUrl()">
+          <span class="icon">🔗</span> 링크 주소 복사하기
+        </button>
+      </div>
+
+      <div class="footer-msg">
+        <p class="thanks-word">참석해주시는 모든 분께 진심으로 감사드립니다.</p>
+        <p class="copyright">2026. 06. 15 Kim Chorong & Kim Hyojin Wedding Day</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Image Modal / Lightbox -->
+  <div class="modal-overlay" id="imageModal" onclick="closeModal()">
+    <div class="modal-content">
+      <img src="" id="modalImg" alt="확대 사진">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMsg">복사되었습니다!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
